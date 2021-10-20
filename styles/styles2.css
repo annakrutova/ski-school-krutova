@@ -1,0 +1,136 @@
+h1 {
+    position: absolute;
+  width: 1278px;
+  height: 89px;
+  left: 81px;
+  top: 240px;
+  
+  /* h1 */
+  
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 89px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  
+  color: #FFFFFF;
+  
+  text-shadow: 1px 1px 2px #060D10;
+    }
+  
+    p {
+      position: absolute;
+  height: 117px;
+  left: 190px;
+  right: 190px;
+  top: 389px;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #FFFFFF;
+  
+  text-shadow: 1px 1px 2px #060D10;
+    }
+  
+    h2{
+      position: absolute;
+  height: 80px;
+  left: 229px;
+  right: 233px;
+  top: 170px;
+  
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 167%;
+  /* or 80px */
+  
+  text-align: center;
+  text-transform: uppercase;
+  
+  /* ski-text */
+  
+  color: #060D10;
+  
+    }
+    h3{
+      position: absolute;
+  width: 150px;
+  height: 53px;
+  left: 81px;
+  top: 350px;
+  
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 167%;
+  /* or 53px */
+  
+  text-transform: uppercase;
+  
+  /* ski-text */
+  
+  color: #060D10;
+  
+    }
+  
+    .dignity-text{
+      position: absolute;
+      width: 406px;
+      height: 108px;
+      left: 517px;
+      top: 428px;
+      
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 26px;
+      line-height: 140%;
+      /* or 36px */
+      
+      
+      /* ski-text */
+      
+      color: #060D10;
+      
+      mix-blend-mode: normal;
+      opacity: 0.8;
+    }
+  
+    h4{
+      height: 80px;
+  left: 395px;
+  right: 398px;
+  top: 170px;
+  
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 167%;
+  /* or 80px */
+  
+  text-align: center;
+  text-transform: uppercase;
+  
+  /* ski-text */
+  
+  color: #060D10;
+  
+    }
+  
