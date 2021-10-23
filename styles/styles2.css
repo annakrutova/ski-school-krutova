@@ -40,19 +40,28 @@
        url('../fonts/montserrat-v18-latin-500.svg#Montserrat') format('svg'); /* Legacy iOS */
 }
 
-/* common */
-body {
-  font-family: , ;
-  color: #;
-}
-
-img {
-  width: 100%;
-}
-
 /* header */
+.header{
+
+  background-color: #66D1FF;
+}
 
 /* promo */
+.title{
+  font-family: 'Oswald'; 'sans-serif';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  background: #66D1FF;
+  line-height: 80px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.1;}
+
+.subtitle{
+  background-color: #66D1FF;
+}
+
 
 /* feature */
 
