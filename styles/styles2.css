@@ -43,8 +43,8 @@
 /* header */
 .header{
 
-  background-color: #66D1FF;
-  background-image: ;
+  background-color: rgb(102, 209, 255);
+  background-image: url(../images/promo.jpg);
 }
 
 /* promo */
@@ -74,7 +74,7 @@
 /* feature */
 
 .section{
-  background: #66D1FF;
+  background: rgb(102, 209, 255);
   mix-blend-mode: normal;
   opacity: 0.1;
 }
