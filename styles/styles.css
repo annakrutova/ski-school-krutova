@@ -42,51 +42,117 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 1278px;
+  margin: 0 auto;
+  border-style: none;
 }
 
 /* header */
+.header{
+ 
+  background-color: #66d1ff;
+ 
+}
+
+.header-wrap{
+  padding: 28px 0;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  list-style-type: square;
+}
+
+
+
 .header-wrap{
 
-  background-color: #66D1FF;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: absolute;
+  border-style: none;
+}
 
+.btn{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  padding: 8 px; 41px;
+  color: #060D10;
+  text-decoration: none;
+  background: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 4px;
+  margin: 34px 81px;
+  border-style: none;
 
 }
 
-.title{
-  background-image: url(../images/Промо.png);
-  mix-blend-mode: normal;
-  opacity: 0.9;
-  position: absolute;
+.logo{
   
 }
+.phone{
+font-weight: 500;
+font-size: 28px;
+line-height: 34px;
+text-decoration: none;
+}
+
+
 
 /* promo */
-.title-text{
 
-  font-family: 'Oswald'; 'sans-serif';
+
+  
+.title{
+  background-image: url(../images/Промо.png);
+  background-size: cover;
+  background-position: center;
+}
+
+
+.title-text{
+  font-family: Oswald; sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
-  line-height: 80px;
+  line-height: 89px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
   color: #FFFFFF;
-  mix-blend-mode: normal;
   text-shadow: 1px 1px 2px #060D10;
-  opacity: 0.8;}
+  }
 
-.subtitle{
-  font-family: 'Montserrat'; 'sans-serif';
+  .subtitle{
+  font-family: Montserrat; sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
   line-height: 39px;
+  display: flex;
+  align-items: center;
+  text-align: center;
   color: #FFFFFF;
   text-shadow: 1px 1px 2px #060D10;
+  }
   
+.slogan{
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #060D10;
 }
+
 
 
 /* feature */
@@ -94,58 +160,28 @@
 
 
 .slogan{
-  font-family: 'Oswald'; 'sans-serif';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 48px;
-  line-height: 80px;
-  text-align: center;
-  color: #060D10;
+ 
 }
 
 .dignity{
-  font-family: 'Oswald'; 'sans-serif';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 53px;
-  color: #060D10;
+  
 }
 
 p.dignity-text{
-font-family: Montserrat; 'sans-serif';
-font-style: normal;
-font-weight: normal;
-font-size: 26px;
-line-height: 36px;
-color: #060D10;
+
 }
 
 .promo{
-  background: linear-gradient(208.35deg, #66D1FF 43.85%, rgba(196, 196, 196, 0) 43.86%);
-mix-blend-mode: normal;
-opacity: 0.1;
+  
 }
 
 .promo-text{
-font-family: Oswald; 'sans-serif';
-font-style: normal;
-font-weight: 500;
-font-size: 48px;
-line-height: 80px;
-text-align: center;
-color: #060D10;
+
 
 }
 
 .button{
 
-font-family: Montserrat; 'sans-serif';
-font-style: normal;
-font-weight: 500;
-font-size: 36px;
-line-height: 44px;
-text-align: center;
 }
 
 /* footer */
@@ -154,25 +190,12 @@ text-align: center;
 
 }
 .appeal{
-  position: absolute;
-  font-family: Montserrat;'sans-serif';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 33px;
-  text-align: center;
-  color: #FFFFFF;
+ 
 }
 .social{
 
 }
 .copyright{
-font-family: Montserrat; 'sans-serif';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 22px;
-text-align: right;
-color: #FFFFFF;
+
 
 }
