@@ -43,24 +43,39 @@
 * {
   box-sizing: border-box;
 }
-/* header */
-.header{
 
-  background-color: rgb(102, 209, 255);
-  background-image: url(../images/promo.jpg);
+/* header */
+.header-wrap{
+
+  background-color: #66D1FF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+
+
+}
+
+.title{
+  background-image: url(../images/Промо.png);
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  position: absolute;
+  
 }
 
 /* promo */
-.title{
+.title-text{
+
   font-family: 'Oswald'; 'sans-serif';
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
-  background: #66D1FF;
   line-height: 80px;
   color: #FFFFFF;
   mix-blend-mode: normal;
-  opacity: 0.1;}
+  text-shadow: 1px 1px 2px #060D10;
+  opacity: 0.8;}
 
 .subtitle{
   font-family: 'Montserrat'; 'sans-serif';
@@ -70,17 +85,14 @@
   line-height: 39px;
   color: #FFFFFF;
   text-shadow: 1px 1px 2px #060D10;
-  background-color: #66D1FF;
+  
 }
 
 
 /* feature */
 
-.section{
-  background: rgb(102, 209, 255);
-  mix-blend-mode: normal;
-  opacity: 0.1;
-}
+
+
 .slogan{
   font-family: 'Oswald'; 'sans-serif';
   font-style: normal;
