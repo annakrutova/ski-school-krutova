@@ -50,6 +50,9 @@
   width: 1278px;
   margin: 0 auto;
   border-style: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 /* header */
@@ -95,6 +98,7 @@
 .logo{
   
 }
+
 .phone{
 font-weight: 500;
 font-size: 28px;
@@ -127,6 +131,8 @@ text-decoration: none;
   text-transform: uppercase;
   color: #FFFFFF;
   text-shadow: 1px 1px 2px #060D10;
+  padding: 240px 0;
+  flex-wrap: nowrap;
   }
 
   .subtitle{
@@ -140,9 +146,61 @@ text-decoration: none;
   text-align: center;
   color: #FFFFFF;
   text-shadow: 1px 1px 2px #060D10;
+  padding: 60px 0;
+ 
   }
   
+  .section{
+    background-color: #66d1ff;
+    opacity: 0.1;
+  }
+
 .slogan{
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 80px;
+  text-align: center;
+  color: #060D10;
+}
+
+
+/* feature */
+
+.feature{
+  padding:170px;
+  
+}
+
+.feature-dignity{
+
+  font-family: Oswald; sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 53px;
+  color: #060D10;
+
+}
+
+.feature-text{
+  font-family: Montserrat; sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 36px;
+  color: #060D10;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+
+.promo-desc{
+
+}
+
+.promo-text{
   font-family: Oswald;
   font-style: normal;
   font-weight: 500;
@@ -151,51 +209,43 @@ text-decoration: none;
   text-align: center;
   text-transform: uppercase;
   color: #060D10;
-}
-
-
-
-/* feature */
-
-
-
-.slogan{
- 
-}
-
-.dignity{
-  
-}
-
-p.dignity-text{
-
-}
-
-.promo{
-  
-}
-
-.promo-text{
-
 
 }
 
 .button{
-
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #060D10;
+  padding: 108px 20px;
 }
 
+.picture{
+  padding: 130px 81px 180px 81px;
+  display: flex;
+  justify-content: space-around;
+}
 /* footer */
+
 .footer{
   background: #060D10;
+  color: #fff;
+  flex-direction: row;
 
 }
-.appeal{
- 
-}
-.social{
 
-}
 .copyright{
-
-
+  padding: 43px 81px 45px 1162px;
+font-weight: 500;
+font-size: 20px;
+line-height: 22px;
+color: #fff;
+justify-content: flex-end  ;
 }
+
+
