@@ -81,8 +81,6 @@
   border-style: none;
 }
 
-
-
 .phone {
   font-weight: 500;
   font-size: 28px;
@@ -90,7 +88,7 @@
   text-decoration: none;
 }
 
-/* promo */
+/* about */
 
 .about {
   background-image: url(../images/promo.jpg);
@@ -104,14 +102,12 @@
   font-weight: 500;
   font-size: 60px;
   line-height: 89px;
-  display: flex;
   align-items: center;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
   text-shadow: 1px 1px 2px #060d10;
   padding: 240px 0;
-  flex-wrap: nowrap;
 }
 
 .about-text {
@@ -128,25 +124,23 @@
   padding: 60px 0;
 }
 
-.section {
-  background-color: #66d1ff;
-  opacity: 0.1;
-}
-
-.advantage-tatle {
+.advantage-title {
   font-family: "Oswald", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
   line-height: 80px;
   text-align: center;
+  text-transform: uppercase;
   color: #060d10;
+  padding: 170px 0;
 }
 
 /* feature */
 
 .feature {
   padding: 170px;
+  flex-wrap: wrap;
 }
 
 .feature-title {
@@ -169,10 +163,7 @@
   opacity: 0.8;
 }
 
-.promo-desc {
-}
-
-.promo-text {
+.promo-title {
   font-family: "Oswald", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -192,13 +183,14 @@
   align-items: center;
   text-align: center;
   color: #060d10;
-  padding: 108px 20px;
+  padding: 60px 469px;
+  text-decoration: none;
 }
 
-.picture {
-  padding: 130px 81px 180px 81px;
+.photos {
+  padding: 81px 30px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 /* footer */
 
@@ -206,13 +198,31 @@
   background: #060d10;
   color: #fff;
   flex-direction: row;
+  padding: 28px 0;
+  display: flex;
+  align-items: center;
 }
 
-.copyright {
-  padding: 43px 81px 45px 1162px;
+.footer-text {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 20px;
+  line-height: 33px;
+}
+.social{
+  display: flex;
+}
+
+.social-item {
+
+}
+.copyright {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
   line-height: 22px;
-  color: #fff;
-  justify-content: flex-end;
+  text-align: right;
+  color: #ffffff;
 }
