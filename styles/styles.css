@@ -48,15 +48,12 @@
 
 .container {
   width: 1278px;
-  margin: 0;
-  border-style: none;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  margin: 0 auto;
 }
 
 /* header */
 .header {
+  padding: 30px 0;
   background-color: #66d1ff;
 }
 
@@ -78,16 +75,11 @@
   background: #ffffff;
   border: 2px solid #ffffff;
   border-radius: 4px;
-  margin: 34px 227px 33px 81px;
-  border-style: none;
 }
 
-
-.logo {
-  margin: 0;
-}
 .phone {
   font-family: "Montserrat", sans-serif;
+  color: #060d10;
   font-style: normal;
   font-weight: 500;
   font-size: 28px;
@@ -98,10 +90,12 @@
 /* about */
 
 .about {
+  padding: 240px 0;
   background-image: url(../images/promo.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  text-align: center;
 }
 
 .about-title {
@@ -110,31 +104,27 @@
   font-weight: 500;
   font-size: 60px;
   line-height: 89px;
-  align-items: center;
-  text-align: center;
   text-transform: uppercase;
   color: #ffffff;
   text-shadow: 1px 1px 2px #060d10;
-  padding: 240px 0;
 }
 
 .about-text {
+  margin-top: 60px;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
   line-height: 39px;
-  display: flex;
   align-items: center;
-  text-align: center;
   color: #ffffff;
   text-shadow: 1px 1px 2px #060d10;
-  padding: 60px 0;
+
 }
 
 .advantage {
+  padding: 170px 0;
   background: rgba(102, 209, 255, .03);
-  list-style: none;
 }
 .advantage-title {
   font-family: "Oswald", sans-serif;
@@ -145,17 +135,16 @@
   text-align: center;
   text-transform: uppercase;
   color: #060d10;
-  padding: 170px 0;
 }
 
 /* feature */
 
 .feature {
-  padding: 170px;
+  margin-top: 100px;
+  padding-right: 81px;
+  padding-left: 81px;
   flex-wrap: wrap;
-  display: block;
   display: flex;
-  margin: 0;
   list-style: none;
 }
 
@@ -168,13 +157,13 @@
   color: #060d10;
   display: block;
   flex-basis: 50%;
-  padding: 15px;
   border: 1px;
   margin-top: 0;
 
 }
 
 .feature-text {
+  margin-top: 15px;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -185,19 +174,24 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  padding: 25px 80px;
+}
 
-
+.feature-item {
+  padding: 15px;
+  width: 33.33%;
 }
 
 .promo {
+  padding: 170px 0 180px 0;
   background: linear-gradient(208.35deg, rgba(102, 209, 255, .03) 43.85%, rgba(196, 196, 196, .0) 43.86%);
-
+  text-align: center;
 }
 
 .promo-title {
+  padding-bottom: 80px;
   font-family: "Oswald", sans-serif;
   font-style: normal;
+  text-transform: uppercase;
   font-weight: 500;
   font-size: 48px;
   line-height: 80px;
@@ -205,17 +199,14 @@
   color: #060d10;
 }
 
-.photos {
-  list-style: none;
-}
-
 .button {
+
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
   line-height: 44px;
-  display: flex;
+  display: inline-block;
   align-items: center;
   text-align: center;
   color: #060d10;
@@ -228,10 +219,17 @@
 }
 
 .photos {
-  padding: 81px 30px;
+  width: 100%;
+  padding-top: 130px;
+  list-style: none;
   display: flex;
-  justify-content: space-between;
 }
+
+.photos-item {
+  flex-basis: 25%;
+  padding: 15px;
+}
+
 /* footer */
 
 .footer {
